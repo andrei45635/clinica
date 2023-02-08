@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fd50bcb-0819-40d1-9763-d9104359b985" name="Changes" comment="" />
+    <list default="true" id="3fd50bcb-0819-40d1-9763-d9104359b985" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/controller/ConsultatieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/controller/MediciController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Consultatie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Medic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Sectie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/repository/db/ConsultatieRepoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/repository/db/MedicRepoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/repository/db/SectieRepoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/utils/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/utils/event/ChangeEventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/utils/event/EntityChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/utils/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/utils/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/utils/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/clinica/consultatie-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/clinica/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/clinica/medici-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +52,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,7 +76,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2LKRLn04omxtIY3BUFfyHgOEDMI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,8 +87,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Andrei/Desktop/Facultate/Semestrul 3/MAP/clinica",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,8 +110,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675617735648</updated>
-      <workItem from="1675617736886" duration="2000" />
+      <workItem from="1675617736886" duration="616000" />
+      <workItem from="1675868461528" duration="8722000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

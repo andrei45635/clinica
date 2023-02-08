@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clinica.controller.ConsultatieController">
+   <children>
+      <TextField fx:id="idColumn" layoutX="75.0" layoutY="40.0" />
+      <ComboBox fx:id="medicComboBox" layoutX="75.0" layoutY="310.0" prefWidth="150.0" />
+      <TextField fx:id="cnpColumn" layoutX="75.0" layoutY="85.0" />
+      <TextField fx:id="numeColumn" layoutX="75.0" layoutY="135.0" />
+      <DatePicker fx:id="dataPicker" layoutX="63.0" layoutY="188.0" />
+      <Spinner fx:id="oraSpinner" min = "0" max = "23" />
+      <Label layoutX="237.0" layoutY="44.0" text="id" />
+      <Label layoutX="237.0" layoutY="89.0" text="CNP" />
+      <Label layoutX="237.0" layoutY="139.0" text="Nume" />
+      <Label layoutX="251.0" layoutY="192.0" text="Data" />
+      <Label layoutX="237.0" layoutY="252.0" text="Ora" />
+      <Label layoutX="237.0" layoutY="314.0" text="Medic" />
+      <Button fx:id="programareButton" layoutX="425.0" layoutY="180.0" mnemonicParsing="false" onAction="#onClickProgramare" text="Programare" />
+   </children>
 </AnchorPane>
